@@ -511,6 +511,23 @@ nav ul li a:hover {
     }
 }
 
+
+@media screen and (max-width: 400px) {
+    .value-box:first-of-type:after,
+    .value-box:nth-of-type(2):after,
+    .value-box:nth-of-type(3):after {
+        top: 10%;
+        left: 98%;
+    }
+
+    .value-box:first-of-type:before,
+    .value-box:nth-of-type(2):before,
+    .value-box:nth-of-type(3):before {
+        top: 10%;
+        left: -48%;
+    }
+}
+
 /* Projects */
 
 .projects {
